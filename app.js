@@ -10,13 +10,15 @@ alert("i am " + age);
 // number of visits on your web page. For example: “You
 // have visited this site N times”.
 
-
+var num = 14 ;
+alert("You have visited this site " + num + " times");
 
 // Q3 Declare a variable called birthYear & assign to it your
 // birth year. Show the following message in your browser:
 
 var birthYear = 1990;
-document.write("My birth year is" + birthYear);
+// var dataType = "Data type of my declared variable in number";
+document.write("My birth year is" + birthYear + " <br> Data type of my declared variable in number <br>");
 
 // Q4. A visitor visits an online clothing store
 // www.xyzClothing.com . Write a script to store in variables
